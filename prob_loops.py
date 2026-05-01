@@ -1,28 +1,28 @@
-#print numbers from 1 to n
+#1.print numbers from 1 to n
 '''n=int(input("enter the value of n:"))
 for i in range(1,n+1):
     print(i,end=" ")'''
 
-#Print Numbers from m to n
+#2.Print Numbers from m to n
 '''m=int(input("enter the value of m:"))
 n=int(input("enetr the value if n:"))
 for i in range(m,n+1):
     print(i,end=" ")'''
 
 
-#Print Numbers from n to 1 in Reverse
+#3.Print Numbers from n to 1 in Reverse
 '''n=int(input("enter the value of n:"))
 for i in range(n,0,-1):
     print(i,end=" ")'''
 
 
-#Print Numbers from n to m in Reverse
+#4.Print Numbers from n to m in Reverse
 '''m=int(input("enter the value of m:"))
 n=int(input("enter the value of n:"))
 for i in range(n,m-1,-1):
     print(i,end=" ")'''
 
-#Sum of n Natural Numbers
+#5.Sum of n Natural Numbers
 '''n=int(input("enter n values:"))
 sum=0
 for i in range(1,n+1):
@@ -30,7 +30,7 @@ for i in range(1,n+1):
 print("sum of n numbers:",sum)'''
 
 
-#Factorial of a Number
+#6.Factorial of a Number
 '''num=int(input("enter value of num:"))
 fact=1
 for i in range(num,0,-1):
@@ -38,7 +38,7 @@ for i in range(num,0,-1):
 print("Factorial of number is:",fact)'''
 
 
-#Sum of m to n Numbers
+#7.Sum of m to n Numbers
 '''m=int(input("enter the value of m:"))
 n=int(input("enter the value of n:"))
 sum=0
@@ -47,7 +47,7 @@ for i in range(m,n+1):
 print("sum of numbers from m to n is:",sum)'''
 
 
-#Product of m to n Numbers
+#8.Product of m to n Numbers
 '''m=int(input("enter the value of m:"))
 n=int(input("enter the value of n:"))
 prod=1
@@ -56,13 +56,13 @@ for i in range(m,n+1):
 print("product of numbers from m to n is:",prod)'''
 
 
-#Print Factors of a Number
+#9.Print Factors of a Number
 '''n=int(input("enter a value of n:"))
 for i in range(1,n+1):
     if n%i==0:
         print(i)'''
 
-#Count of Factors
+#10.Count of Factors
 '''n=int(input("enter a value of n:"))
 count=0
 for i in range(1,n+1):
@@ -72,7 +72,7 @@ print(count)'''
 
 
 
-#prime Number Check
+#11.prime Number Check
 '''num=int(input("enter a number:"))
 count=0
 for i in range(1,num+1):
@@ -84,7 +84,7 @@ else:
     print("not a prime number")'''
 
 
-#Even Numbers from m to n
+#12.Even Numbers from m to n
 '''m=int(input("enter the value of m:"))
 n=int(input("enter the value of n:"))
 count=0
@@ -95,7 +95,7 @@ for i in range(m,n+1):
 print("total even numbers between m and n:",count)'''
 
 
-#Odd Numbers from m to n
+#13.Odd Numbers from m to n
 '''m=int(input("enter the value of m:"))
 n=int(input("enter the value of n:"))
 count=0
@@ -106,7 +106,7 @@ for i in range(m,n+1):
 print("total odd numbers between m and n:",count)'''
 
 
-#Count of Even and Odd Numbers
+#14.Count of Even and Odd Numbers
 '''m=int(input("enter the value of m:"))
 n=int(input("enter the value of n:"))
 even=0
@@ -120,11 +120,11 @@ print("even numbers:",even )
 print("odd numbers:",odd)'''
 
 
-#Reverse a string
+#15.Reverse a string
 '''str=input("enter a string:")
 print(str[::-1])'''
 
-#Check for Palindrome String
+#16.Check for Palindrome String
 '''str=input("enter a string:")
 reverse=str[::-1]
 if str==reverse:
@@ -133,7 +133,7 @@ else:
     print("not palindrome")'''
 
 
-#Sum of Digits
+#17.Sum of Digits
 '''num=int(input("enter a nuumber:"))
 sum=0
 while num>0:
@@ -143,7 +143,7 @@ while num>0:
 print(sum)'''
 
 
-#Product of Digits
+#18.Product of Digits
 '''num=int(input("enter a nuumber:"))
 prod=1
 while num>0:
@@ -283,13 +283,13 @@ else:
 
 #29. Fibonacci Series
 n = int(input("Enter number of terms: "))
+count=0
+a,b=0,1
 
-a, b = 0, 1
-count = 0
+while count<n:
+    print(a,end=" ")
+    a,b=b,a+b
+    count+=1
 
-while count < n:
-    print(a, end=" ")
-    a, b = b, a + b
-    count += 1
 
 
