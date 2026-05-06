@@ -35,12 +35,12 @@ for i in range(1,n+1):
     print(patt)'''
 
 #5.Inverted Number Triangle
-n=int(input("enter the value of n:"))
+'''n=int(input("enter the value of n:"))
 for i in range(n,0,-1):
     patt=""
     for j in range(1,i+1):
         patt+=str(i-j+1)+" "
-    print(patt)
+    print(patt)'''
 
 
 #6.Right-Aligned Number Triangle
@@ -78,9 +78,9 @@ for i in range(1,n+1):
 
 
 #9.Odd Number Triangle     
-'''n=int(input("enter the value of n:"))
+n=int(input("enter the value of n:"))
 for i in range(1,n+1):
     star=""
     for j in range(1,i+1):
         star+=str(j*2-1)+" "
-    print(star)'''
+    print(star)
