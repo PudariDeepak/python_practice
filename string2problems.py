@@ -157,3 +157,4 @@ def next_character(text):
     return res
 text="abc"
 print(next_character(text))
+
